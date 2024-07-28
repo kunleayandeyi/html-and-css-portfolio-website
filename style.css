@@ -1,0 +1,58 @@
+body {
+    font-family: "Epilogue", sans-serif;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+  header {
+    display: flex;
+    flex-direction: row;
+    /*justify-items: auto;*/
+    justify-content: space-between;
+    /*padding: 50px, 30px;*/
+    height: 50px;
+  }
+  .register {
+    margin-right: 30px;
+  }
+  .login {
+    padding-right: 20px;
+  }
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 12rem;
+    padding-bottom: 100px;
+  }
+  .heroleftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 9rem;
+  }
+  h1 {
+    font-size: 4rem;
+    margin-top: 100px;
+  }
+  .headerleftside {
+    display: flex;
+    flex-direction: row;
+    /*align-content: space-evenly;
+  justify-content: space-evenly;*/
+    margin-right: 2rem;
+    padding-left: 2rem;
+  }
+  button {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: azure;
+  }
+  a {
+    margin-left: 2rem;
+  }
+  p {
+    margin-bottom: 70px;
+  }
+  footer {
+    margin-top: 100px;
+  }
+  /*div>button{margin-bottom: 50px;}*/
+  
